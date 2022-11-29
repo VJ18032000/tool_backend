@@ -1,7 +1,7 @@
 const express=require('express')
 const cors=require('cors')
 const mongoose=require('mongoose')
-const url = "mongodb://localhost/image"
+const url = "mongodb://127.0.0.1/image"
 
 const app = express()
 const bodyParser=require('body-parser')
